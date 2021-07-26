@@ -1,7 +1,7 @@
 #include "FastLED.h"
-#define NUM_LEDS 6
-#define DATA_PIN A3
-#define BRI 50
+#define NUM_LEDS 16
+#define DATA_PIN 4
+#define BRI 20
 CRGB leds[NUM_LEDS];
 
 #include <Wire.h>
